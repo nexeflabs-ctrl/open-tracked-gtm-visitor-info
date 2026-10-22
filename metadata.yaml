@@ -1,0 +1,6 @@
+homepage: "https://opentracked.io"
+documentation: "https://docs.opentracked.io/google-tag-manager"
+versions:
+  # Each version is the commit that holds that version of template.tpl.
+  - sha: 1713839178496f9852cbd9cb44ff8554adc9d596
+    changeNotes: First release. Returns one thing about the visitor of the event: country, region, city or postal code (from the headers Cloudflare adds), operating system, browser, mobile or not (from the user agent), or an anonymous visitor ID. If the event already carries the value, that one wins.
