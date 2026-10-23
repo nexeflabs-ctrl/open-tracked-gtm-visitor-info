@@ -15,6 +15,10 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Open Tracked Visitor Info",
   "description": "Returns one thing about the visitor of the event: country, region, city or postal code (from the headers Cloudflare adds), operating system, browser, mobile or not (from the user agent), or an anonymous visitor ID. If the event already carries the value, that one wins.",
+  "categories": [
+    "UTILITY",
+    "ADVERTISING"
+  ],
   "containerContexts": [
     "SERVER"
   ],
